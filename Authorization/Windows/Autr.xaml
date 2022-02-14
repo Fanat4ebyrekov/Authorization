@@ -54,7 +54,7 @@
                 <TextBox FontSize="30"
                            Text="1840"
                            
-                           Margin="20 0 0 0" FontWeight="Bold" Cursor="IBeam"
+                           Margin="20 0 10 0" FontWeight="Bold" Cursor="IBeam"
                     />
                 
                 <TextBlock Text="Введите пароль"
@@ -63,7 +63,7 @@
                            Margin="20" FontWeight="Bold"
                     />
                 <PasswordBox FontSize="30"
-                           Margin="20 0 0 0" FontWeight="Bold" Cursor="IBeam"
+                           Margin="20 0 10 0" FontWeight="Bold" Cursor="IBeam"
                     />
                 <Button Content="Войти"
                         Height="30"
