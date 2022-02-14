@@ -32,10 +32,10 @@
                 <TextBlock FontSize="40" VerticalAlignment="Top" HorizontalAlignment="Center" Style="{DynamicResource MaterialDesignTitleTextBlock}" FontStyle="Italic" FontWeight="Bold">Авторизация</TextBlock>
                 <Button 
                         FontSize="10"
-                        Width="50"
+                        Width="40"
                         VerticalAlignment="Top"
                         HorizontalAlignment="Right"
-                        Margin="-20 -70" Cursor="Hand" BorderBrush="{x:Null}"
+                        Margin="-30 -80" Cursor="Hand" BorderBrush="{x:Null}"
                            
                     >
                     <Button.Background>
@@ -43,7 +43,8 @@
                     </Button.Background>
                 </Button>
                 <TextBlock Margin="20"
-                    Text="_______________________________________________________________________"
+                    Text="___________________________________________"
+                    TextAlignment="Center"
                     />
                 <TextBlock Text="Введите ваш ID"
                            FontSize="20"
