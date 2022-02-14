@@ -59,7 +59,7 @@ namespace Authorization.Windows
             try
             {
                 OpenFileDialog ofd = new OpenFileDialog();
-                ofd.Filter = "MP3 Files (*.mp3|*.mp3|MP4 File (*.mp4)|*.mp4|3GP File (*.3gp)|*.3gp|Audio File (*.wma)|*.wma|MOV File (*.mov)|*.mov|AVI File (*.avi)|*.avi|Flash Video(*.wmv)|*.wmv|MPEG-2 File(*.mpeg)|*.mpeg|WebM Video (*.webm)|*.webm|All files (*.*)|*.*";
+                ofd.Filter = "MP3 Files (*.mp3)|*.mp3|MP4 File (*.mp4)|*.mp4|3GP File (*.3gp)|*.3gp|Audio File (*.wma)|*.wma|MOV File (*.mov)|*.mov|AVI File (*.avi)|*.avi|Flash Video(*.wmv)|*.wmv|MPEG-2 File(*.mpeg)|*.mpeg|WebM Video (*.webm)|*.webm|All files (*.*)|*.*";
                 ofd.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
                 ofd.ShowDialog();
                 string filename = ofd.FileName;

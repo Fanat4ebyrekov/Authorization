@@ -65,9 +65,7 @@
                  VerticalAlignment="Top"
                  HorizontalAlignment="Left"
                  Margin="50 5"
-                 Text="134134"
+                 Opacity="0"
             />
-
-
     </Grid>
 </Window>
