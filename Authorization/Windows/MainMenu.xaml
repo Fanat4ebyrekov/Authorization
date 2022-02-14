@@ -16,11 +16,32 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
         WindowStartupLocation="CenterScreen"
-        WindowState="Maximized">
+        WindowState="Maximized"
+        WindowStyle="None">
     <Grid>
-        <Image gif:ImageBehavior.AnimatedSource="/Background\NyanCat.gif"
-               Stretch="Fill"
-               />
-        
+        <Grid VerticalAlignment="Top"
+              Height="110" Background="#FF0E4F7B"  
+            >
+            
+        </Grid>
+        <Grid HorizontalAlignment="Left"
+              Width="400"
+              Background="#FF0E4F7B"
+              >
+            <StackPanel>
+                <Grid Height="300" Background="White">
+                    
+                </Grid>
+                <ListView BorderBrush="Transparent"
+                          Background="Transparent">
+                    <ListViewItem Height="70">
+                        <StackPanel Orientation="Horizontal">
+                            
+                        </StackPanel>
+                    </ListViewItem>
+                </ListView>
+            </StackPanel>
+            
+        </Grid>
     </Grid>
 </Window>
